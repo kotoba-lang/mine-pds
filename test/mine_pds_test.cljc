@@ -6,7 +6,7 @@
 
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? (the-ns 'mine-pds)))))
+    (is (some? (find-ns 'mine-pds)))))
 
 (defn- sample-mine []
   (mine-pds/mine {:mine-id "mine-001" :name "Pilbara East" :mine-type :surface
