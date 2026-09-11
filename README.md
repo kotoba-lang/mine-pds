@@ -12,7 +12,7 @@ catalog, extraction history ledger.
 
 Restored — the single-namespace ledger ported from the original 221-line
 Rust `lib.rs`, with both original Rust unit tests mirrored 1:1 in
-`test/mine_pds_test.cljc` (+1 smoke test) — 3 tests / 8 assertions, 0
+`test/mine_pds_test.cljk` (+1 smoke test) — 3 tests / 8 assertions, 0
 failures. Pure data + pure functions throughout; no IO/GPU.
 Mutation-returning operations return `[:ok ledger']` / `[:error kind
 ledger]` (ledger unchanged) rather than Rust's `Result<(),
