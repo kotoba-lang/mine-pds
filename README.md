@@ -24,5 +24,5 @@ Note: `kotoba-lang/mine-ai` depends on this repo for `Mine`/`MineStatus`/
 ## Develop
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
